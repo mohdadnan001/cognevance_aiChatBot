@@ -1,0 +1,50 @@
+                            precision    recall  f1-score   support
+
+              cancel_order      1.000     0.949     0.974        99
+              capabilities      0.000     0.000     0.000         1
+              change_order      0.977     0.960     0.968       174
+   change_shipping_address      0.995     0.995     0.995       195
+    check_cancellation_fee      1.000     1.000     1.000       190
+             check_invoice      0.984     0.978     0.981       184
+     check_payment_methods      1.000     1.000     1.000       200
+       check_refund_policy      1.000     0.995     0.997       199
+                    clever      1.000     1.000     1.000         1
+                 complaint      1.000     1.000     1.000       200
+  contact_customer_service      1.000     0.995     0.997       200
+       contact_human_agent      0.995     1.000     0.998       201
+          courtesy_goodbye      1.000     1.000     1.000         1
+         courtesy_greeting      0.333     0.500     0.400         2
+courtesy_greeting_response      1.000     1.000     1.000         2
+            create_account      0.977     0.966     0.972       178
+       current_human_query      0.500     1.000     0.667         1
+            delete_account      0.929     0.995     0.961       184
+          delivery_options      0.955     0.970     0.962       132
+           delivery_period      0.990     1.000     0.995       200
+              edit_account      0.987     0.987     0.987       155
+               get_invoice      0.994     0.967     0.981       182
+                get_refund      0.989     0.989     0.989       185
+                   goodbye      1.000     0.500     0.667         2
+                  greeting      1.000     0.667     0.800         3
+         greeting_response      1.000     1.000     1.000         2
+                     jokes      1.000     0.500     0.667         2
+                name_query      0.500     0.500     0.500         2
+   newsletter_subscription      1.000     1.000     1.000       200
+             payment_issue      1.000     0.980     0.990       201
+               place_order      0.985     0.975     0.980       200
+           real_name_query      1.000     1.000     1.000         1
+          recover_password      0.966     0.995     0.980       201
+     registration_problems      0.975     0.985     0.980       200
+                    review      0.995     0.995     0.995       199
+                self_aware      1.000     1.000     1.000         1
+   set_up_shipping_address      0.995     0.985     0.990       200
+            switch_account      0.971     0.965     0.968       172
+                    thanks      1.000     0.500     0.667         2
+                time_query      1.000     1.000     1.000         2
+               track_order      1.000     0.975     0.988       162
+              track_refund      0.979     0.993     0.986       141
+          understand_query      0.000     0.000     0.000         1
+                  who_am_i      0.333     1.000     0.500         1
+
+                  accuracy                          0.985      4961
+                 macro avg      0.893     0.881     0.875      4961
+              weighted avg      0.986     0.985     0.985      4961
